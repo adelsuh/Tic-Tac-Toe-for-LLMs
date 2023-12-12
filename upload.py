@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 client = OpenAI()
 
 result = client.files.create(
